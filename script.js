@@ -301,7 +301,7 @@
          size: 100
        });
      });
-// Redondear a la décima más cercana (múltiplos de 0.10)
+
 // Redondear a la décima más cercana (como en la tabla)
 function redondearPersonalizado(valor) {
     let decimas = Math.floor(valor * 10 + 0.51); // redondeo clásico
