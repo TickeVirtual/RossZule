@@ -22,7 +22,7 @@
                   var porcent_desc_plata = params.has('porcent_desc_plata') ? params.get('porcent_desc_plata') : "0";
                   var total_por_pagar = params.has('total_por_pagar') ? params.get('total_por_pagar') : "0";
                   var estado = params.has('estado') ? params.get('estado') : "PAGADO";
-                  var total_prendas = params.has('total_prendas') ? params.get('total_prendas') : "10";      
+                  var total_prendas = params.has('total_prendas') ? params.get('total_prendas') : "";      
                   var cantidades = params.has('cantidades') ? params.get('cantidades') : "10";
                   var descripciones = params.has('servicios') ? params.get('servicios') : "AL AGUA: SABANAS 2 PLZ Ploma cuadritos blancos basement home";
                   var detalle = params.has('detalles') ? params.get('detalles') : "TERNO";
