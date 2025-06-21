@@ -221,7 +221,7 @@
             const index = (hora + minuto + segundo) % mensajes.length;
 
             // Generar el mensaje final
-            const captionMessage = `*LAVANDIA*\n\n${mensajes[index].replace("{link}", shortedURL)}`;
+            const captionMessage = `*LAVANDERIA*\n\n${mensajes[index].replace("{link}", shortedURL)}`;
 
                      const body = {
                       "number": numeroTelefono,
