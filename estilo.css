@@ -1,4 +1,4 @@
-                .m-0 {
+.m-0 {
                         margin: 0 !important;
                         font-weight: normal; /* Agrega esta línea para desactivar la negrita */
                         text-align: left;
@@ -28,7 +28,7 @@
 
                     .nro_boleta {
                         margin: 0;
-                        font-size: 8mm !important;
+                        font-size: 10mm !important;
                     }
                     .font-small {
                       font-size: 0.5mm;
