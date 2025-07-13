@@ -3,15 +3,15 @@
 
                   // Obtener los valores de los parámetros
                   var nro_boleta = params.has('boleta') ? params.get('boleta') : "10000";
-                  var nombre_cliente = params.has('cliente') ? params.get('cliente') : "NOMBRE CLIENTE";
+                  var nombre_cliente = params.has('cliente') ? params.get('cliente') : "-";
                   var usuario = params.has('usuario') ? params.get('usuario') : "USUARIO";
                   var puntos = params.has('puntos') ? params.get('puntos') : "0";
-                  var telefono = params.has('telefono') ? params.get('telefono') : "931200353";
+                  var telefono = params.has('telefono') ? params.get('telefono') : "-";
                   var codigo_pais = params.has('codigo_pais') ? params.get('codigo_pais') : "+";
-                  var fecha = params.has('fecha') ? params.get('fecha') : "31/05/2025 10:00:23";
-                  var fecha_entrega = params.has('fecha_entrega') ? params.get('fecha_entrega') : "31/05/2025 10:00:23";
+                  var fecha = params.has('fecha') ? params.get('fecha') : "-";
+                  var fecha_entrega = params.has('fecha_entrega') ? params.get('fecha_entrega') : "-";
                   var total = params.has('total') ? params.get('total') : "100";
-                  var total_a_pagar = params.has('total_a_pagar') ? params.get('total_a_pagar') : "50";
+                  var total_a_pagar = params.has('total_a_pagar') ? params.get('total_a_pagar') : "-";
                   var descuento = params.has('descuento') ? params.get('descuento') :  '0.00';
                   var a_cuenta = params.has('a_cuenta') ? params.get('a_cuenta') : "0";
                   var desc_por_prenda = params.has('desc_por_prenda') ? params.get('desc_por_prenda') : "0";
@@ -24,10 +24,10 @@
                   var estado = params.has('estado') ? params.get('estado') : "PAGADO";
                   var total_prendas = params.has('total_prendas') ? params.get('total_prendas') : "";      
                   var cantidades = params.has('cantidades') ? params.get('cantidades') : "10";
-                  var descripciones = params.has('servicios') ? params.get('servicios') : "AL AGUA: SABANAS 2 PLZ Ploma cuadritos blancos basement home";
-                  var detalle = params.has('detalles') ? params.get('detalles') : "TERNO";
-                  var p_units = params.has('p_unit') ? params.get('p_unit') : "15";
-                  var subtotal = params.has('subtotal') ? params.get('subtotal') : "150";
+                  var descripciones = params.has('servicios') ? params.get('servicios') : "-";
+                  var detalle = params.has('detalles') ? params.get('detalles') : "-";
+                  var p_units = params.has('p_unit') ? params.get('p_unit') : "-";
+                  var subtotal = params.has('subtotal') ? params.get('subtotal') : "-";
                   
                   //Formato de 2 decimales
                   //total = parseFloat(total).toLocaleString('es-ES', { minimumFractionDigits: 2 });
