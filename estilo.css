@@ -6,7 +6,7 @@
                       }
                     *{
                         font-family: tahoma, Helvetica, sans-serif; /* tipo de letra de todo el ticket; */
-                        font-size: 3.5mm !important;
+                        font-size: 3.5mm ;
                         line-height: 1 !important;
                       }
 
@@ -28,7 +28,7 @@
 
                     .nro_boleta {
                         margin: 0;
-                        font-size: 2mm !important;
+                        font-size: 5mm !important;
                     }
                     .font-small {
                       font-size: 0.5mm;
