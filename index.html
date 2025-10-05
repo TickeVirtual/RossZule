@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
 
 
 
@@ -133,6 +135,16 @@
     <!-- Mensaje de estado -->
    
   </div>
-  
+  <script>
+  // 🔧 Solución al bug de escalado inicial en móviles
+  document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+      const width = document.body.scrollWidth;
+      document.body.style.width = width + 'px';
+      window.scrollTo(0, 1); // fuerza un pequeño redibujado del viewport
+    }, 200);
+  });
+</script>
+
 </body>
 </html>
